@@ -56,4 +56,4 @@ var Example = React.createFactory(React.createClass({displayName: 'Example',
   }
 }))
 
-React.render(Example(null), document.body)
+ReactDOM.render(Example(null), document.querySelector('#main'))
